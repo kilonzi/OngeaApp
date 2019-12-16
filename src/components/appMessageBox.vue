@@ -10,7 +10,7 @@
             rows="2"
           ></textarea>
           <button class="button send-button is-white">
-              <v-icon name="paper-plane"></v-icon>
+            <v-icon name="paper-plane"></v-icon>
           </button>
         </div>
       </div>
@@ -28,16 +28,16 @@ export default {
   left: 10px;
   margin-left: 15px;
 }
-.send-button{
-    margin:0;
-    cursor:pointer;
-    position:relative;
-    height: 70px;
+.send-button {
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+  height: 70px;
 }
-.chatarea{
-    max-width: 260px !important;
-    min-width: 260px !important;
-    position: relative;
+.chatarea {
+  max-width: 260px !important;
+  min-width: 260px !important;
+  position: relative;
 }
 .pulled-right {
   float: right;

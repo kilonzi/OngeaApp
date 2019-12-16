@@ -16,10 +16,10 @@ export default {
 </script>
 
 <style scoped lang="less">
-  @square:100px;
-  .square-video{
-    height: @square;
-    width: @square;
-    border-radius: @square;
-  }
+@square: 100px;
+.square-video {
+  height: @square;
+  width: @square;
+  border-radius: @square;
+}
 </style>

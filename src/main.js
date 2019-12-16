@@ -13,6 +13,7 @@ import { Auth0Plugin } from "./auth";
 import firebase from "firebase/app";
 import "firebase/analytics";
 import "firebase/auth";
+import Peer from "peerjs";
 
 //VUE USE
 Vue.component("v-icon", Icon);

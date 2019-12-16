@@ -52,7 +52,7 @@ export default {
             user_email: user.email,
             user_token: token
           });
-          router.push('connect');
+          router.push("connect");
         })
         .catch(function(error) {
           // Handle Errors here.

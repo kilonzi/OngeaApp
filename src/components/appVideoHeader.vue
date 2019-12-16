@@ -11,7 +11,9 @@
       </div>
     </div>
     <div class="column">
-      <button @click="show_video" class="button is-primary float-right">Go Live</button>
+      <button @click="show_video" class="button is-primary float-right">
+        Go Live
+      </button>
     </div>
   </div>
 </template>
@@ -81,7 +83,6 @@ export default {
   float: right;
   position: relative;
   margin: auto;
-
 }
 .float-left {
   float: left;

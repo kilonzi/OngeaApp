@@ -2,12 +2,16 @@
   <div>
     <div class="vertical-list">
       <ul>
-        <li v-for="(caller,index) in callers" v-bind:key="caller">{{index }},{{caller.id }},{{caller.name }}</li>
+        <li v-for="(caller, index) in callers" v-bind:key="caller">
+          {{ index }},{{ caller.id }},{{ caller.name }},<img src="#">
+        </li>
       </ul>
     </div>
     <div class="vertical-list">
       <ul>
-
+          <li v-for="meta in metas" v-bind:key="meta">
+              {{meta.name }}
+          </li>
       </ul>
     </div>
   </div>
@@ -27,9 +31,7 @@ export default {
         { id: "6", name: "Jane Kusi" },
         { id: "7", name: "Jane Kusi" }
       ],
-      metas:[
-          { id: "1", name: store.state.user_name}
-      ]
+      metas: [{ id: "1", name: store.state.user_name }]
     };
   }
 };
@@ -40,4 +42,3 @@ li {
   padding-bottom: 0.2rem;
 }
 </style>
-

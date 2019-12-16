@@ -4,8 +4,7 @@
       <videoHeader />
       <videoContainer />
       <div class="columns">
-        <div class="column is-primary is-2">
-        </div>
+        <div class="column is-primary is-2"></div>
         <div class="column is-secondary is-7">
           <controls />
         </div>
@@ -18,11 +17,11 @@
 </template>
 <script>
 import controls from "../components/appControls";
-
 import messageBox from "../components/appMessageBox";
 import videoContainer from "../components/appVideoContainer";
 import videoHeader from "../components/appVideoHeader";
 import store from "../store";
+import Peer from 'peerjs';
 export default {
   name: "connect",
   data() {
