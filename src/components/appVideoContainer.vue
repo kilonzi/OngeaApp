@@ -4,15 +4,19 @@
       <callers />
     </div>
     <div class="column is-secondary is-7 has-background-link"></div>
-    <div class="column is-info is-3 has-background-primary"></div>
+    <div class="column is-3">
+     <messages/>
+    </div>
   </div>
 </template>
 <script>
 import callers from "../components/appListCallers";
+import messages from '../components/appMessageList'
 export default {
   name: "videoContainer",
   components: {
-    callers
+    callers,
+    messages
   }
 };
 </script>

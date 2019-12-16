@@ -4,11 +4,11 @@
       <videoHeader />
       <videoContainer />
       <div class="columns">
-        <div class="column is-primary is-2"></div>
-        <div class="column is-secondary is-7">
+        <div class="column is-2"></div>
+        <div class="column is-7">
           <controls />
         </div>
-        <div class="column is-info is-3">
+        <div class="column is-3">
           <messageBox />
         </div>
       </div>

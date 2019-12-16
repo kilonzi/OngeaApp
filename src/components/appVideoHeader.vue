@@ -1,5 +1,5 @@
 <template>
-  <div class="columns has-background-info">
+  <div class="columns is-thin">
     <div class="column">
       <div class="brand-logo float-left">
         <brandLogo />
@@ -76,6 +76,12 @@ export default {
 };
 </script>
 <style scoped>
+.is-thin{
+  max-height: 80px !important;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .brand-logo {
   height: 40px !important;
 }
